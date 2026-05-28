@@ -1,0 +1,19 @@
+[configuration]
+
+entry_symbol = "zobrist_library_init"
+compatibility_minimum = "4.2"
+
+[libraries]
+
+macos.debug = "res://addons/zobrist-hashing/bin/zobrist.macos.template_debug.framework/zobrist.macos.template_debug"
+macos.release = "res://addons/zobrist-hashing/bin/zobrist.macos.template_release.framework/zobrist.macos.template_release"
+windows.debug.x86_64 = "res://addons/zobrist-hashing/bin/zobrist.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://addons/zobrist-hashing/bin/zobrist.windows.template_release.x86_64.dll"
+windows.debug.x86_32 = "res://addons/zobrist-hashing/bin/zobrist.windows.template_debug.x86_32.dll"
+windows.release.x86_32 = "res://addons/zobrist-hashing/bin/zobrist.windows.template_release.x86_32.dll"
+linux.debug.x86_64 = "res://addons/zobrist-hashing/bin/zobrist.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addons/zobrist-hashing/bin/zobrist.linux.template_release.x86_64.so"
+linux.debug.arm64 = "res://addons/zobrist-hashing/bin/zobrist.linux.template_debug.arm64.so"
+linux.release.arm64 = "res://addons/zobrist-hashing/bin/zobrist.linux.template_release.arm64.so"
+android.debug.arm64 = "res://addons/zobrist-hashing/bin/zobrist.android.template_debug.arm64.so"
+android.release.arm64 = "res://addons/zobrist-hashing/bin/zobrist.android.template_release.arm64.so"
